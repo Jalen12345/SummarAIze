@@ -4,6 +4,7 @@
 
 - Completed static front-end views based on wireframe and added the necessary configuration files to be added to Chrome as an extension (Manifest Version 3).
 - Finished rehashing details for the remainder of the project, only implementation left.
+- Created a scraper to scrape the text from webpages using Beautiful Soup. 
 
 ### Implementation Details:
 1. **Web Scraper**: Will use a web scraping library like Beautiful Soup to process the HTML.
@@ -17,8 +18,7 @@
 - The design and scoping are complete; focus is now on the following implementation details:
     1. Creating a dynamic front-end interface using JavaScript for a chat-based interface within the extension.
         - Display question responses sent from the back-end.
-    2. Implementing Web Scraper using the Beautiful Soup package in Python.
-    3. Creating a back-end server in Flask to:
+    2. Creating a back-end server in Flask to:
         - Run web scraper to gather relevant text from the HTML of a webpage.
         - Parse question inputs from the front-end.
         - Formulate OpenAI API requests.
